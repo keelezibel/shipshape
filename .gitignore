@@ -1,0 +1,33 @@
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Testing
+test-results/
+playwright-report/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Tooling state
+.no-mistakes/
